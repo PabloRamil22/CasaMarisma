@@ -1,0 +1,18 @@
+.hero {
+    background-image: url('https://example.com/imagen.jpg'); /* Reemplaza con tu URL de imagen */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 4rem;
+}
+.services img {
+    width: 100%;
+    height: auto;
+}
