@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Casa da Marisma</title>
 </head>
 
@@ -31,7 +30,7 @@
                     <a class="nav-link" href="#services">Servicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="galeria">Galería</a>
+                    <a class="nav-link" href="#gallery">Galería</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contacto</a>
@@ -112,19 +111,30 @@
                     <p>Explore nuestra galería de fotos y descubra la belleza de Casa Rural El Paraíso.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <img src="https://example.com/galeria1.jpg" class="img-fluid" alt="Galería 1">
-                    <!-- Reemplaza con tu URL de imagen -->
+            <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://example.com/galeria1.jpg" class="d-block w-100" alt="Galería 1">
+                        <!-- Reemplaza con tu URL de imagen -->
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://example.com/galeria2.jpg" class="d-block w-100" alt="Galería 2">
+                        <!-- Reemplaza con tu URL de imagen -->
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://example.com/galeria3.jpg" class="d-block w-100" alt="Galería 3">
+                        <!-- Reemplaza con tu URL de imagen -->
+                    </div>
+                    <!-- Añadir más items de carrusel según sea necesario -->
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <img src="https://example.com/galeria2.jpg" class="img-fluid" alt="Galería 2">
-                    <!-- Reemplaza con tu URL de imagen -->
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <img src="https://example.com/galeria3.jpg" class="img-fluid" alt="Galería 3">
-                    <!-- Reemplaza con tu URL de imagen -->
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
@@ -162,10 +172,9 @@
         </div>
     </section>
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
